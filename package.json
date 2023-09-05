@@ -1,6 +1,6 @@
 {
   "name": "@valentech/lingua-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "lib/index.js",
   "author": "Artur Morlang <a.morlang@tecoyo.com>",
@@ -13,9 +13,9 @@
     "url": "https://github.com/c7x43t/lingua-js.git"
   },
   "scripts": {
-    "install": "npm rebuild",
+    "postinstall": "neon build",
     "build": "neon build",
-    "rebuild": "npm run build -- --release",
+    "rebuild": "cargo build --release",
     "test": "neon build && node lib/index.js"
   }
 }
