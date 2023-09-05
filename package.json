@@ -13,7 +13,7 @@
     "url": "https://github.com/c7x43t/lingua-js.git"
   },
   "scripts": {
-    "install": "npm install",
+    "install": "npm rebuild",
     "build": "neon build",
     "rebuild": "npm run build -- --release",
     "test": "neon build && node lib/index.js"
