@@ -1,22 +1,21 @@
 {
   "name": "@valentech/lingua-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.js",
   "author": "Artur Morlang <a.morlang@tecoyo.com>",
   "license": "MIT",
   "dependencies": {
-    "natural": "^6.3.0",
-    "neon-cli": "^0.10.1",
-    "spacy": "^0.0.4"
+    "neon-cli": "^0.10.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/c7x43t/lingua-js.git"
   },
   "scripts": {
-    "build": "npm install",
-    "install": "neon build",
+    "install": "npm install",
+    "build": "neon build",
+    "rebuild": "npm run build -- --release",
     "test": "neon build && node lib/index.js"
   }
 }

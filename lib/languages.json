@@ -1,0 +1,629 @@
+[
+  {
+    "lingua_name": "Afrikaans",
+    "name": "Afrikaans",
+    "pt1": "af",
+    "pt2t": "afr",
+    "pt2b": "afr",
+    "pt3": "afr"
+  },
+  {
+    "lingua_name": "Albanian",
+    "name": "Albanian",
+    "pt1": "sq",
+    "pt2t": "sqi",
+    "pt2b": "alb",
+    "pt3": "sqi"
+  },
+  {
+    "lingua_name": "Arabic",
+    "name": "Arabic",
+    "pt1": "ar",
+    "pt2t": "ara",
+    "pt2b": "ara",
+    "pt3": "ara"
+  },
+  {
+    "lingua_name": "Armenian",
+    "name": "Armenian",
+    "pt1": "hy",
+    "pt2t": "hye",
+    "pt2b": "arm",
+    "pt3": "hye"
+  },
+  {
+    "lingua_name": "Azerbaijani",
+    "name": "Azerbaijani",
+    "pt1": "az",
+    "pt2t": "aze",
+    "pt2b": "aze",
+    "pt3": "aze"
+  },
+  {
+    "lingua_name": "Basque",
+    "name": "Basque",
+    "pt1": "eu",
+    "pt2t": "eus",
+    "pt2b": "baq",
+    "pt3": "eus"
+  },
+  {
+    "lingua_name": "Belarusian",
+    "name": "Belarusian",
+    "pt1": "be",
+    "pt2t": "bel",
+    "pt2b": "bel",
+    "pt3": "bel"
+  },
+  {
+    "lingua_name": "Bengali",
+    "name": "Bengali",
+    "pt1": "bn",
+    "pt2t": "ben",
+    "pt2b": "ben",
+    "pt3": "ben"
+  },
+  {
+    "lingua_name": " Bokmal"
+  },
+  {
+    "lingua_name": "Bosnian",
+    "name": "Bosnian",
+    "pt1": "bs",
+    "pt2t": "bos",
+    "pt2b": "bos",
+    "pt3": "bos"
+  },
+  {
+    "lingua_name": "Bulgarian",
+    "name": "Bulgarian",
+    "pt1": "bg",
+    "pt2t": "bul",
+    "pt2b": "bul",
+    "pt3": "bul"
+  },
+  {
+    "lingua_name": "Catalan",
+    "name": "Catalan",
+    "pt1": "ca",
+    "pt2t": "cat",
+    "pt2b": "cat",
+    "pt3": "cat"
+  },
+  {
+    "lingua_name": "Chinese",
+    "name": "Chinese",
+    "pt1": "zh",
+    "pt2t": "zho",
+    "pt2b": "chi",
+    "pt3": "zho"
+  },
+  {
+    "lingua_name": "Croatian",
+    "name": "Croatian",
+    "pt1": "hr",
+    "pt2t": "hrv",
+    "pt2b": "hrv",
+    "pt3": "hrv"
+  },
+  {
+    "lingua_name": "Czech",
+    "name": "Czech",
+    "pt1": "cs",
+    "pt2t": "ces",
+    "pt2b": "cze",
+    "pt3": "ces"
+  },
+  {
+    "lingua_name": "Danish",
+    "name": "Danish",
+    "pt1": "da",
+    "pt2t": "dan",
+    "pt2b": "dan",
+    "pt3": "dan"
+  },
+  {
+    "lingua_name": "Dutch",
+    "name": "Dutch",
+    "pt1": "nl",
+    "pt2t": "nld",
+    "pt2b": "dut",
+    "pt3": "nld"
+  },
+  {
+    "lingua_name": "Dutch",
+    "name": "Flemish",
+    "pt1": "nl",
+    "pt2t": "nld",
+    "pt2b": "dut",
+    "pt3": "nld"
+  },
+  {
+    "lingua_name": "English",
+    "name": "English",
+    "pt1": "en",
+    "pt2t": "eng",
+    "pt2b": "eng",
+    "pt3": "eng"
+  },
+  {
+    "lingua_name": "Esperanto",
+    "name": "Esperanto",
+    "pt1": "eo",
+    "pt2t": "epo",
+    "pt2b": "epo",
+    "pt3": "epo"
+  },
+  {
+    "lingua_name": "Estonian",
+    "name": "Estonian",
+    "pt1": "et",
+    "pt2t": "est",
+    "pt2b": "est",
+    "pt3": "est"
+  },
+  {
+    "lingua_name": "Finnish",
+    "name": "Finnish",
+    "pt1": "fi",
+    "pt2t": "fin",
+    "pt2b": "fin",
+    "pt3": "fin"
+  },
+  {
+    "lingua_name": "French",
+    "name": "French",
+    "pt1": "fr",
+    "pt2t": "fra",
+    "pt2b": "fre",
+    "pt3": "fra"
+  },
+  {
+    "lingua_name": "Ganda",
+    "name": "Ganda",
+    "pt1": "lg",
+    "pt2t": "lug",
+    "pt2b": "lug",
+    "pt3": "lug"
+  },
+  {
+    "lingua_name": "Georgian",
+    "name": "Georgian",
+    "pt1": "ka",
+    "pt2t": "kat",
+    "pt2b": "geo",
+    "pt3": "kat"
+  },
+  {
+    "lingua_name": "German",
+    "name": "German",
+    "pt1": "de",
+    "pt2t": "deu",
+    "pt2b": "ger",
+    "pt3": "deu"
+  },
+  {
+    "lingua_name": "Greek",
+    "name": "Greek",
+    "pt1": "el",
+    "pt2t": "ell",
+    "pt2b": "gre",
+    "pt3": "ell"
+  },
+  {
+    "lingua_name": "Gujarati",
+    "name": "Gujarati",
+    "pt1": "gu",
+    "pt2t": "guj",
+    "pt2b": "guj",
+    "pt3": "guj"
+  },
+  {
+    "lingua_name": "Hebrew",
+    "name": "Hebrew",
+    "pt1": "he",
+    "pt2t": "heb",
+    "pt2b": "heb",
+    "pt3": "heb"
+  },
+  {
+    "lingua_name": "Hindi",
+    "name": "Hindi",
+    "pt1": "hi",
+    "pt2t": "hin",
+    "pt2b": "hin",
+    "pt3": "hin"
+  },
+  {
+    "lingua_name": "Hungarian",
+    "name": "Hungarian",
+    "pt1": "hu",
+    "pt2t": "hun",
+    "pt2b": "hun",
+    "pt3": "hun"
+  },
+  {
+    "lingua_name": "Icelandic",
+    "name": "Icelandic",
+    "pt1": "is",
+    "pt2t": "isl",
+    "pt2b": "ice",
+    "pt3": "isl"
+  },
+  {
+    "lingua_name": "Indonesian",
+    "name": "Indonesian",
+    "pt1": "id",
+    "pt2t": "ind",
+    "pt2b": "ind",
+    "pt3": "ind"
+  },
+  {
+    "lingua_name": "Irish",
+    "name": "Irish",
+    "pt1": "ga",
+    "pt2t": "gle",
+    "pt2b": "gle",
+    "pt3": "gle"
+  },
+  {
+    "lingua_name": "Italian",
+    "name": "Italian",
+    "pt1": "it",
+    "pt2t": "ita",
+    "pt2b": "ita",
+    "pt3": "ita"
+  },
+  {
+    "lingua_name": "Japanese",
+    "name": "Japanese",
+    "pt1": "ja",
+    "pt2t": "jpn",
+    "pt2b": "jpn",
+    "pt3": "jpn"
+  },
+  {
+    "lingua_name": "Kazakh",
+    "name": "Kazakh",
+    "pt1": "kk",
+    "pt2t": "kaz",
+    "pt2b": "kaz",
+    "pt3": "kaz"
+  },
+  {
+    "lingua_name": "Korean",
+    "name": "Korean",
+    "pt1": "ko",
+    "pt2t": "kor",
+    "pt2b": "kor",
+    "pt3": "kor"
+  },
+  {
+    "lingua_name": "Latin",
+    "name": "Latin",
+    "pt1": "la",
+    "pt2t": "lat",
+    "pt2b": "lat",
+    "pt3": "lat"
+  },
+  {
+    "lingua_name": "Latvian",
+    "name": "Latvian",
+    "pt1": "lv",
+    "pt2t": "lav",
+    "pt2b": "lav",
+    "pt3": "lav"
+  },
+  {
+    "lingua_name": "Lithuanian",
+    "name": "Lithuanian",
+    "pt1": "lt",
+    "pt2t": "lit",
+    "pt2b": "lit",
+    "pt3": "lit"
+  },
+  {
+    "lingua_name": "Macedonian",
+    "name": "Macedonian",
+    "pt1": "mk",
+    "pt2t": "mkd",
+    "pt2b": "mac",
+    "pt3": "mkd"
+  },
+  {
+    "lingua_name": "Malay",
+    "name": "Malay",
+    "pt1": "ms",
+    "pt2t": "msa",
+    "pt2b": "may",
+    "pt3": "msa"
+  },
+  {
+    "lingua_name": "Maori",
+    "name": "Maori",
+    "pt1": "mi",
+    "pt2t": "mri",
+    "pt2b": "mao",
+    "pt3": "mri"
+  },
+  {
+    "lingua_name": "Marathi",
+    "name": "Marathi",
+    "pt1": "mr",
+    "pt2t": "mar",
+    "pt2b": "mar",
+    "pt3": "mar"
+  },
+  {
+    "lingua_name": "Mongolian",
+    "name": "Mongolian",
+    "pt1": "mn",
+    "pt2t": "mon",
+    "pt2b": "mon",
+    "pt3": "mon"
+  },
+  {
+    "lingua_name": "Nynorsk",
+    "name": "Norwegian",
+    "pt1": "no",
+    "pt2t": "nor",
+    "pt2b": "nor",
+    "pt3": "nor"
+  },
+  {
+    "lingua_name": "Nynorsk",
+    "name": "Nynorsk",
+    "pt1": "nn",
+    "pt2t": "nno",
+    "pt2b": "nno",
+    "pt3": "nno"
+  },
+  {
+    "lingua_name": "Persian",
+    "name": "Persian",
+    "pt1": "fa",
+    "pt2t": "fas",
+    "pt2b": "per",
+    "pt3": "fas"
+  },
+  {
+    "lingua_name": "Polish",
+    "name": "Polish",
+    "pt1": "pl",
+    "pt2t": "pol",
+    "pt2b": "pol",
+    "pt3": "pol"
+  },
+  {
+    "lingua_name": "Portuguese",
+    "name": "Portuguese",
+    "pt1": "pt",
+    "pt2t": "por",
+    "pt2b": "por",
+    "pt3": "por"
+  },
+  {
+    "lingua_name": "Punjabi",
+    "name": "Punjabi",
+    "pt1": "pa",
+    "pt2t": "pan",
+    "pt2b": "pan",
+    "pt3": "pan"
+  },
+  {
+    "lingua_name": "Romanian",
+    "name": "Romanian",
+    "pt1": "ro",
+    "pt2t": "ron",
+    "pt2b": "rum",
+    "pt3": "ron"
+  },
+  {
+    "lingua_name": "Romanian",
+    "name": "Moldovian",
+    "pt1": "ro",
+    "pt2t": "ron",
+    "pt2b": "rum",
+    "pt3": "ron"
+  },
+  {
+    "lingua_name": "Romanian",
+    "name": "Moldovan",
+    "pt1": "ro",
+    "pt2t": "ron",
+    "pt2b": "rum",
+    "pt3": "ron"
+  },
+  {
+    "lingua_name": "Russian",
+    "name": "Russian",
+    "pt1": "ru",
+    "pt2t": "rus",
+    "pt2b": "rus",
+    "pt3": "rus"
+  },
+  {
+    "lingua_name": "Serbian",
+    "name": "Serbian",
+    "pt1": "sr",
+    "pt2t": "srp",
+    "pt2b": "srp",
+    "pt3": "srp"
+  },
+  {
+    "lingua_name": "Shona",
+    "name": "Shona",
+    "pt1": "sn",
+    "pt2t": "sna",
+    "pt2b": "sna",
+    "pt3": "sna"
+  },
+  {
+    "lingua_name": "Slovak",
+    "name": "Slovak",
+    "pt1": "sk",
+    "pt2t": "slk",
+    "pt2b": "slo",
+    "pt3": "slk"
+  },
+  {
+    "lingua_name": "Slovene",
+    "name": "Slovenian",
+    "pt1": "sl",
+    "pt2t": "slv",
+    "pt2b": "slv",
+    "pt3": "slv"
+  },
+  {
+    "lingua_name": "Somali",
+    "name": "Somali",
+    "pt1": "so",
+    "pt2t": "som",
+    "pt2b": "som",
+    "pt3": "som"
+  },
+  {
+    "lingua_name": "Sotho",
+    "name": "Sotho",
+    "pt1": "st",
+    "pt2t": "sot",
+    "pt2b": "sot",
+    "pt3": "sot"
+  },
+  {
+    "lingua_name": "Spanish",
+    "name": "Spanish",
+    "pt1": "es",
+    "pt2t": "spa",
+    "pt2b": "spa",
+    "pt3": "spa"
+  },
+  {
+    "lingua_name": "Swahili",
+    "name": "Swahili",
+    "pt1": "sw",
+    "pt2t": "swa",
+    "pt2b": "swa",
+    "pt3": "swa"
+  },
+  {
+    "lingua_name": "Swedish",
+    "name": "Swedish",
+    "pt1": "sv",
+    "pt2t": "swe",
+    "pt2b": "swe",
+    "pt3": "swe"
+  },
+  {
+    "lingua_name": "Tagalog",
+    "name": "Tagalog",
+    "pt1": "tl",
+    "pt2t": "tgl",
+    "pt2b": "tgl",
+    "pt3": "tgl"
+  },
+  {
+    "lingua_name": "Tamil",
+    "name": "Tamil",
+    "pt1": "ta",
+    "pt2t": "tam",
+    "pt2b": "tam",
+    "pt3": "tam"
+  },
+  {
+    "lingua_name": "Telugu",
+    "name": "Telugu",
+    "pt1": "te",
+    "pt2t": "tel",
+    "pt2b": "tel",
+    "pt3": "tel"
+  },
+  {
+    "lingua_name": "Thai",
+    "name": "Thai",
+    "pt1": "th",
+    "pt2t": "tha",
+    "pt2b": "tha",
+    "pt3": "tha"
+  },
+  {
+    "lingua_name": "Tsonga",
+    "name": "Tsonga",
+    "pt1": "ts",
+    "pt2t": "tso",
+    "pt2b": "tso",
+    "pt3": "tso"
+  },
+  {
+    "lingua_name": "Tswana",
+    "name": "Tswana",
+    "pt1": "tn",
+    "pt2t": "tsn",
+    "pt2b": "tsn",
+    "pt3": "tsn"
+  },
+  {
+    "lingua_name": "Turkish",
+    "name": "Turkish",
+    "pt1": "tr",
+    "pt2t": "tur",
+    "pt2b": "tur",
+    "pt3": "tur"
+  },
+  {
+    "lingua_name": "Ukrainian",
+    "name": "Ukrainian",
+    "pt1": "uk",
+    "pt2t": "ukr",
+    "pt2b": "ukr",
+    "pt3": "ukr"
+  },
+  {
+    "lingua_name": "Urdu",
+    "name": "Urdu",
+    "pt1": "ur",
+    "pt2t": "urd",
+    "pt2b": "urd",
+    "pt3": "urd"
+  },
+  {
+    "lingua_name": "Vietnamese",
+    "name": "Vietnamese",
+    "pt1": "vi",
+    "pt2t": "vie",
+    "pt2b": "vie",
+    "pt3": "vie"
+  },
+  {
+    "lingua_name": "Welsh",
+    "name": "Welsh",
+    "pt1": "cy",
+    "pt2t": "cym",
+    "pt2b": "wel",
+    "pt3": "cym"
+  },
+  {
+    "lingua_name": "Xhosa",
+    "name": "Xhosa",
+    "pt1": "xh",
+    "pt2t": "xho",
+    "pt2b": "xho",
+    "pt3": "xho"
+  },
+  {
+    "lingua_name": "Yoruba",
+    "name": "Yoruba",
+    "pt1": "yo",
+    "pt2t": "yor",
+    "pt2b": "yor",
+    "pt3": "yor"
+  },
+  {
+    "lingua_name": "Zulu",
+    "name": "Zulu",
+    "pt1": "zu",
+    "pt2t": "zul",
+    "pt2b": "zul",
+    "pt3": "zul"
+  }
+]

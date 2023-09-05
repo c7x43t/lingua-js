@@ -78,6 +78,31 @@ fn get_detector(mut cx: FunctionContext) -> JsResult<JsString> {
     Ok(cx.string(format!("{}", id)))
 }
 
+fn confidence_values_to_js<'a, C: Context<'a>>(
+    vec: &Vec<(Language, f64)>,
+    cx: &mut C,
+) -> JsResult<'a, JsArray> {
+    let array = JsArray::new(cx, vec.len() as u32);
+
+    for (i, (lang, confidence)) in vec.iter().enumerate() {
+        // Create a JavaScript object for each tuple
+        let obj = cx.empty_object();
+
+        // Convert `Language` to a string or another JsValue
+        let lang_string = cx.string(lang.to_string()); // This assumes `Language` has a `to_string()` method
+        obj.set(cx, "language", lang_string)?;
+
+        // Convert f64 to JsNumber
+        let conf = cx.number(*confidence);
+        obj.set(cx, "confidence", conf)?;
+
+        // Set the object in the array
+        array.set(cx, i as u32, obj)?;
+    }
+
+    Ok(array)
+}
+
 fn detect_language(mut cx: FunctionContext) -> JsResult<JsString> {
     let input_text = cx.argument::<JsString>(0)?.value();
     let detector_id = cx.argument::<JsString>(1)?.value();
@@ -97,28 +122,37 @@ fn detect_language(mut cx: FunctionContext) -> JsResult<JsString> {
     };
     Ok(cx.string(result))
 }
-fn detect_languages(mut cx: FunctionContext) -> JsResult<JsObject> {
+fn detect_languages(mut cx: FunctionContext) -> JsResult<JsArray> {
+    //  JsResult<JsObject>
     let input_text = cx.argument::<JsString>(0)?.value();
     let detector_id = cx.argument::<JsString>(1)?.value();
     let detector_id = detector_id.parse::<u64>().unwrap();
 
     let detectors = LANGUAGE_DETECTORS.read().unwrap();
-    let confidence_values = match detectors.get(&detector_id) {
+    let mut confidence_values = match detectors.get(&detector_id) {
         Some(cell) => cell
             .get()
             .expect("Failed to get language_detector")
             .compute_language_confidence_values(&input_text),
         None => Vec::new(),
     };
-
-    let result = cx.empty_object();
-    for (language, confidence) in confidence_values {
-        let language_key = cx.string(format!("{:?}", language));
-        let confidence_value = cx.number(confidence);
-        result.set(&mut cx, language_key, confidence_value)?;
-    }
-
-    Ok(result)
+    confidence_values.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(std::cmp::Ordering::Equal));
+    return confidence_values_to_js(&confidence_values, &mut cx);
+    // let result = cx.empty_array();
+    // for (language, confidence) in confidence_values {
+    //     let language_key = cx.string(format!("{:?}", language));
+    //     let confidence_value = cx.number(confidence);
+    //     let len = result.len(&mut cx);
+    //     result.set(&mut cx, len, value)?;
+    //     result.push(&mut cx, language_key)?;
+    // }
+    // let result = cx.empty_object();
+    // for (language, confidence) in confidence_values {
+    //     let language_key = cx.string(format!("{:?}", language));
+    //     let confidence_value = cx.number(confidence);
+    //     result.set(&mut cx, language_key, confidence_value)?;
+    // }
+    // Ok(result)
 }
 fn detect_languages_normalized(mut cx: FunctionContext) -> JsResult<JsObject> {
     let input_text = cx.argument::<JsString>(0)?.value();
@@ -126,14 +160,14 @@ fn detect_languages_normalized(mut cx: FunctionContext) -> JsResult<JsObject> {
     let detector_id = detector_id.parse::<u64>().unwrap();
 
     let detectors = LANGUAGE_DETECTORS.read().unwrap();
-    let confidence_values = match detectors.get(&detector_id) {
+    let mut confidence_values = match detectors.get(&detector_id) {
         Some(cell) => cell
             .get()
             .expect("Failed to get language_detector")
             .compute_normalized_language_confidence_values(&input_text),
         None => Vec::new(),
     };
-
+    confidence_values.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(std::cmp::Ordering::Equal));
     let result = cx.empty_object();
     for (language, confidence) in confidence_values {
         let language_key = cx.string(format!("{:?}", language));
@@ -143,6 +177,7 @@ fn detect_languages_normalized(mut cx: FunctionContext) -> JsResult<JsObject> {
 
     Ok(result)
 }
+
 register_module!(mut cx, {
     cx.export_function("getDetector", get_detector)?;
     cx.export_function("detectLanguage", detect_language)?;
