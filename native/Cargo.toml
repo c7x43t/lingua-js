@@ -1,0 +1,22 @@
+[package]
+name = "lang-detect"
+version = "0.1.0"
+authors = ["Artur Morlang <a.morlang@tecoyo.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "lang_detect"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.10.1"
+
+
+[dependencies]
+neon = { version = "0.10.1" } # , features = ["napi-6"]
+neon-build = "0.10.1"
+lingua = "1.5" # 1.4
+once_cell = "1.8"
