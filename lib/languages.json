@@ -5,7 +5,10 @@
     "pt1": "af",
     "pt2t": "afr",
     "pt2b": "afr",
-    "pt3": "afr"
+    "pt3": "afr",
+    "native_name": [
+      "Afrikaans"
+    ]
   },
   {
     "lingua_name": "Albanian",
@@ -13,7 +16,10 @@
     "pt1": "sq",
     "pt2t": "sqi",
     "pt2b": "alb",
-    "pt3": "sqi"
+    "pt3": "sqi",
+    "native_name": [
+      "Shqip"
+    ]
   },
   {
     "lingua_name": "Arabic",
@@ -21,7 +27,10 @@
     "pt1": "ar",
     "pt2t": "ara",
     "pt2b": "ara",
-    "pt3": "ara"
+    "pt3": "ara",
+    "native_name": [
+      "العربية"
+    ]
   },
   {
     "lingua_name": "Armenian",
@@ -29,7 +38,10 @@
     "pt1": "hy",
     "pt2t": "hye",
     "pt2b": "arm",
-    "pt3": "hye"
+    "pt3": "hye",
+    "native_name": [
+      "Հայերեն"
+    ]
   },
   {
     "lingua_name": "Azerbaijani",
@@ -37,7 +49,10 @@
     "pt1": "az",
     "pt2t": "aze",
     "pt2b": "aze",
-    "pt3": "aze"
+    "pt3": "aze",
+    "native_name": [
+      "Azərbaycan"
+    ]
   },
   {
     "lingua_name": "Basque",
@@ -45,7 +60,10 @@
     "pt1": "eu",
     "pt2t": "eus",
     "pt2b": "baq",
-    "pt3": "eus"
+    "pt3": "eus",
+    "native_name": [
+      "Euskara"
+    ]
   },
   {
     "lingua_name": "Belarusian",
@@ -53,7 +71,10 @@
     "pt1": "be",
     "pt2t": "bel",
     "pt2b": "bel",
-    "pt3": "bel"
+    "pt3": "bel",
+    "native_name": [
+      "Беларуская"
+    ]
   },
   {
     "lingua_name": "Bengali",
@@ -61,10 +82,21 @@
     "pt1": "bn",
     "pt2t": "ben",
     "pt2b": "ben",
-    "pt3": "ben"
+    "pt3": "ben",
+    "native_name": [
+      "বাংলা"
+    ]
   },
   {
-    "lingua_name": " Bokmal"
+    "lingua_name": "Bokmal",
+    "name": "Bokmal",
+    "pt1": "nb",
+    "pt2t": "nob",
+    "pt2b": "nob",
+    "pt3": "nob",
+    "native_name": [
+      "Bokmål"
+    ]
   },
   {
     "lingua_name": "Bosnian",
@@ -72,7 +104,10 @@
     "pt1": "bs",
     "pt2t": "bos",
     "pt2b": "bos",
-    "pt3": "bos"
+    "pt3": "bos",
+    "native_name": [
+      "Bosanski"
+    ]
   },
   {
     "lingua_name": "Bulgarian",
@@ -80,7 +115,10 @@
     "pt1": "bg",
     "pt2t": "bul",
     "pt2b": "bul",
-    "pt3": "bul"
+    "pt3": "bul",
+    "native_name": [
+      "Български"
+    ]
   },
   {
     "lingua_name": "Catalan",
@@ -88,7 +126,10 @@
     "pt1": "ca",
     "pt2t": "cat",
     "pt2b": "cat",
-    "pt3": "cat"
+    "pt3": "cat",
+    "native_name": [
+      "Català"
+    ]
   },
   {
     "lingua_name": "Chinese",
@@ -96,7 +137,10 @@
     "pt1": "zh",
     "pt2t": "zho",
     "pt2b": "chi",
-    "pt3": "zho"
+    "pt3": "zho",
+    "native_name": [
+      "中文"
+    ]
   },
   {
     "lingua_name": "Croatian",
@@ -104,7 +148,10 @@
     "pt1": "hr",
     "pt2t": "hrv",
     "pt2b": "hrv",
-    "pt3": "hrv"
+    "pt3": "hrv",
+    "native_name": [
+      "Hrvatski"
+    ]
   },
   {
     "lingua_name": "Czech",
@@ -112,7 +159,10 @@
     "pt1": "cs",
     "pt2t": "ces",
     "pt2b": "cze",
-    "pt3": "ces"
+    "pt3": "ces",
+    "native_name": [
+      "Čeština"
+    ]
   },
   {
     "lingua_name": "Danish",
@@ -120,7 +170,10 @@
     "pt1": "da",
     "pt2t": "dan",
     "pt2b": "dan",
-    "pt3": "dan"
+    "pt3": "dan",
+    "native_name": [
+      "Dansk"
+    ]
   },
   {
     "lingua_name": "Dutch",
@@ -128,7 +181,10 @@
     "pt1": "nl",
     "pt2t": "nld",
     "pt2b": "dut",
-    "pt3": "nld"
+    "pt3": "nld",
+    "native_name": [
+      "Nederlands"
+    ]
   },
   {
     "lingua_name": "Dutch",
@@ -136,7 +192,10 @@
     "pt1": "nl",
     "pt2t": "nld",
     "pt2b": "dut",
-    "pt3": "nld"
+    "pt3": "nld",
+    "native_name": [
+      "Vlaams"
+    ]
   },
   {
     "lingua_name": "English",
@@ -144,7 +203,10 @@
     "pt1": "en",
     "pt2t": "eng",
     "pt2b": "eng",
-    "pt3": "eng"
+    "pt3": "eng",
+    "native_name": [
+      "English"
+    ]
   },
   {
     "lingua_name": "Esperanto",
@@ -152,7 +214,10 @@
     "pt1": "eo",
     "pt2t": "epo",
     "pt2b": "epo",
-    "pt3": "epo"
+    "pt3": "epo",
+    "native_name": [
+      "Esperanto"
+    ]
   },
   {
     "lingua_name": "Estonian",
@@ -160,7 +225,10 @@
     "pt1": "et",
     "pt2t": "est",
     "pt2b": "est",
-    "pt3": "est"
+    "pt3": "est",
+    "native_name": [
+      "Eesti"
+    ]
   },
   {
     "lingua_name": "Finnish",
@@ -168,7 +236,10 @@
     "pt1": "fi",
     "pt2t": "fin",
     "pt2b": "fin",
-    "pt3": "fin"
+    "pt3": "fin",
+    "native_name": [
+      "Suomi"
+    ]
   },
   {
     "lingua_name": "French",
@@ -176,7 +247,10 @@
     "pt1": "fr",
     "pt2t": "fra",
     "pt2b": "fre",
-    "pt3": "fra"
+    "pt3": "fra",
+    "native_name": [
+      "Français"
+    ]
   },
   {
     "lingua_name": "Ganda",
@@ -184,7 +258,10 @@
     "pt1": "lg",
     "pt2t": "lug",
     "pt2b": "lug",
-    "pt3": "lug"
+    "pt3": "lug",
+    "native_name": [
+      "Luganda"
+    ]
   },
   {
     "lingua_name": "Georgian",
@@ -192,7 +269,10 @@
     "pt1": "ka",
     "pt2t": "kat",
     "pt2b": "geo",
-    "pt3": "kat"
+    "pt3": "kat",
+    "native_name": [
+      "ქართული"
+    ]
   },
   {
     "lingua_name": "German",
@@ -200,7 +280,10 @@
     "pt1": "de",
     "pt2t": "deu",
     "pt2b": "ger",
-    "pt3": "deu"
+    "pt3": "deu",
+    "native_name": [
+      "Deutsch"
+    ]
   },
   {
     "lingua_name": "Greek",
@@ -208,7 +291,10 @@
     "pt1": "el",
     "pt2t": "ell",
     "pt2b": "gre",
-    "pt3": "ell"
+    "pt3": "ell",
+    "native_name": [
+      "Ελληνικά"
+    ]
   },
   {
     "lingua_name": "Gujarati",
@@ -216,11 +302,18 @@
     "pt1": "gu",
     "pt2t": "guj",
     "pt2b": "guj",
-    "pt3": "guj"
+    "pt3": "guj",
+    "native_name": [
+      "ગુજરાતી"
+    ]
   },
   {
     "lingua_name": "Hebrew",
     "name": "Hebrew",
+    "native_name": [
+      "עִברִיתת",
+      "עברית"
+    ],
     "pt1": "he",
     "pt2t": "heb",
     "pt2b": "heb",
@@ -229,6 +322,10 @@
   {
     "lingua_name": "Hindi",
     "name": "Hindi",
+    "native_name": [
+      "हिन्दी",
+      "हिंदी"
+    ],
     "pt1": "hi",
     "pt2t": "hin",
     "pt2b": "hin",
@@ -240,7 +337,10 @@
     "pt1": "hu",
     "pt2t": "hun",
     "pt2b": "hun",
-    "pt3": "hun"
+    "pt3": "hun",
+    "native_name": [
+      "Magyar"
+    ]
   },
   {
     "lingua_name": "Icelandic",
@@ -248,7 +348,10 @@
     "pt1": "is",
     "pt2t": "isl",
     "pt2b": "ice",
-    "pt3": "isl"
+    "pt3": "isl",
+    "native_name": [
+      "Íslenska"
+    ]
   },
   {
     "lingua_name": "Indonesian",
@@ -256,7 +359,10 @@
     "pt1": "id",
     "pt2t": "ind",
     "pt2b": "ind",
-    "pt3": "ind"
+    "pt3": "ind",
+    "native_name": [
+      "Bahasa Indonesia"
+    ]
   },
   {
     "lingua_name": "Irish",
@@ -264,7 +370,10 @@
     "pt1": "ga",
     "pt2t": "gle",
     "pt2b": "gle",
-    "pt3": "gle"
+    "pt3": "gle",
+    "native_name": [
+      "Gaeilge"
+    ]
   },
   {
     "lingua_name": "Italian",
@@ -272,7 +381,10 @@
     "pt1": "it",
     "pt2t": "ita",
     "pt2b": "ita",
-    "pt3": "ita"
+    "pt3": "ita",
+    "native_name": [
+      "Italiano"
+    ]
   },
   {
     "lingua_name": "Japanese",
@@ -280,7 +392,10 @@
     "pt1": "ja",
     "pt2t": "jpn",
     "pt2b": "jpn",
-    "pt3": "jpn"
+    "pt3": "jpn",
+    "native_name": [
+      "日本語"
+    ]
   },
   {
     "lingua_name": "Kazakh",
@@ -288,7 +403,10 @@
     "pt1": "kk",
     "pt2t": "kaz",
     "pt2b": "kaz",
-    "pt3": "kaz"
+    "pt3": "kaz",
+    "native_name": [
+      "Қазақша"
+    ]
   },
   {
     "lingua_name": "Korean",
@@ -296,7 +414,10 @@
     "pt1": "ko",
     "pt2t": "kor",
     "pt2b": "kor",
-    "pt3": "kor"
+    "pt3": "kor",
+    "native_name": [
+      "한국어"
+    ]
   },
   {
     "lingua_name": "Latin",
@@ -304,7 +425,10 @@
     "pt1": "la",
     "pt2t": "lat",
     "pt2b": "lat",
-    "pt3": "lat"
+    "pt3": "lat",
+    "native_name": [
+      "Latina"
+    ]
   },
   {
     "lingua_name": "Latvian",
@@ -312,7 +436,10 @@
     "pt1": "lv",
     "pt2t": "lav",
     "pt2b": "lav",
-    "pt3": "lav"
+    "pt3": "lav",
+    "native_name": [
+      "Latviešu"
+    ]
   },
   {
     "lingua_name": "Lithuanian",
@@ -320,7 +447,10 @@
     "pt1": "lt",
     "pt2t": "lit",
     "pt2b": "lit",
-    "pt3": "lit"
+    "pt3": "lit",
+    "native_name": [
+      "Lietuvių"
+    ]
   },
   {
     "lingua_name": "Macedonian",
@@ -328,7 +458,10 @@
     "pt1": "mk",
     "pt2t": "mkd",
     "pt2b": "mac",
-    "pt3": "mkd"
+    "pt3": "mkd",
+    "native_name": [
+      "Македонски"
+    ]
   },
   {
     "lingua_name": "Malay",
@@ -336,7 +469,10 @@
     "pt1": "ms",
     "pt2t": "msa",
     "pt2b": "may",
-    "pt3": "msa"
+    "pt3": "msa",
+    "native_name": [
+      "Bahasa Melayu"
+    ]
   },
   {
     "lingua_name": "Maori",
@@ -344,7 +480,10 @@
     "pt1": "mi",
     "pt2t": "mri",
     "pt2b": "mao",
-    "pt3": "mri"
+    "pt3": "mri",
+    "native_name": [
+      "Te Reo Māori"
+    ]
   },
   {
     "lingua_name": "Marathi",
@@ -352,7 +491,10 @@
     "pt1": "mr",
     "pt2t": "mar",
     "pt2b": "mar",
-    "pt3": "mar"
+    "pt3": "mar",
+    "native_name": [
+      "मराठी"
+    ]
   },
   {
     "lingua_name": "Mongolian",
@@ -360,7 +502,10 @@
     "pt1": "mn",
     "pt2t": "mon",
     "pt2b": "mon",
-    "pt3": "mon"
+    "pt3": "mon",
+    "native_name": [
+      "Монгол"
+    ]
   },
   {
     "lingua_name": "Nynorsk",
@@ -368,7 +513,10 @@
     "pt1": "no",
     "pt2t": "nor",
     "pt2b": "nor",
-    "pt3": "nor"
+    "pt3": "nor",
+    "native_name": [
+      "Norsk"
+    ]
   },
   {
     "lingua_name": "Nynorsk",
@@ -376,7 +524,10 @@
     "pt1": "nn",
     "pt2t": "nno",
     "pt2b": "nno",
-    "pt3": "nno"
+    "pt3": "nno",
+    "native_name": [
+      "Nynorsk"
+    ]
   },
   {
     "lingua_name": "Persian",
@@ -384,7 +535,10 @@
     "pt1": "fa",
     "pt2t": "fas",
     "pt2b": "per",
-    "pt3": "fas"
+    "pt3": "fas",
+    "native_name": [
+      "فارسی"
+    ]
   },
   {
     "lingua_name": "Polish",
@@ -392,7 +546,10 @@
     "pt1": "pl",
     "pt2t": "pol",
     "pt2b": "pol",
-    "pt3": "pol"
+    "pt3": "pol",
+    "native_name": [
+      "Polski"
+    ]
   },
   {
     "lingua_name": "Portuguese",
@@ -400,7 +557,10 @@
     "pt1": "pt",
     "pt2t": "por",
     "pt2b": "por",
-    "pt3": "por"
+    "pt3": "por",
+    "native_name": [
+      "Português"
+    ]
   },
   {
     "lingua_name": "Punjabi",
@@ -408,7 +568,10 @@
     "pt1": "pa",
     "pt2t": "pan",
     "pt2b": "pan",
-    "pt3": "pan"
+    "pt3": "pan",
+    "native_name": [
+      "ਪੰਜਾਬੀ"
+    ]
   },
   {
     "lingua_name": "Romanian",
@@ -416,7 +579,10 @@
     "pt1": "ro",
     "pt2t": "ron",
     "pt2b": "rum",
-    "pt3": "ron"
+    "pt3": "ron",
+    "native_name": [
+      "Română"
+    ]
   },
   {
     "lingua_name": "Romanian",
@@ -424,7 +590,10 @@
     "pt1": "ro",
     "pt2t": "ron",
     "pt2b": "rum",
-    "pt3": "ron"
+    "pt3": "ron",
+    "native_name": [
+      "Moldovenească"
+    ]
   },
   {
     "lingua_name": "Romanian",
@@ -432,7 +601,10 @@
     "pt1": "ro",
     "pt2t": "ron",
     "pt2b": "rum",
-    "pt3": "ron"
+    "pt3": "ron",
+    "native_name": [
+      "Moldovenească"
+    ]
   },
   {
     "lingua_name": "Russian",
@@ -440,7 +612,10 @@
     "pt1": "ru",
     "pt2t": "rus",
     "pt2b": "rus",
-    "pt3": "rus"
+    "pt3": "rus",
+    "native_name": [
+      "Русский"
+    ]
   },
   {
     "lingua_name": "Serbian",
@@ -448,7 +623,10 @@
     "pt1": "sr",
     "pt2t": "srp",
     "pt2b": "srp",
-    "pt3": "srp"
+    "pt3": "srp",
+    "native_name": [
+      "Српски"
+    ]
   },
   {
     "lingua_name": "Shona",
@@ -456,7 +634,10 @@
     "pt1": "sn",
     "pt2t": "sna",
     "pt2b": "sna",
-    "pt3": "sna"
+    "pt3": "sna",
+    "native_name": [
+      "ChiShona"
+    ]
   },
   {
     "lingua_name": "Slovak",
@@ -464,7 +645,10 @@
     "pt1": "sk",
     "pt2t": "slk",
     "pt2b": "slo",
-    "pt3": "slk"
+    "pt3": "slk",
+    "native_name": [
+      "Slovenčina"
+    ]
   },
   {
     "lingua_name": "Slovene",
@@ -472,7 +656,10 @@
     "pt1": "sl",
     "pt2t": "slv",
     "pt2b": "slv",
-    "pt3": "slv"
+    "pt3": "slv",
+    "native_name": [
+      "Slovenščina"
+    ]
   },
   {
     "lingua_name": "Somali",
@@ -480,7 +667,10 @@
     "pt1": "so",
     "pt2t": "som",
     "pt2b": "som",
-    "pt3": "som"
+    "pt3": "som",
+    "native_name": [
+      "Soomaali"
+    ]
   },
   {
     "lingua_name": "Sotho",
@@ -488,7 +678,10 @@
     "pt1": "st",
     "pt2t": "sot",
     "pt2b": "sot",
-    "pt3": "sot"
+    "pt3": "sot",
+    "native_name": [
+      "Sesotho"
+    ]
   },
   {
     "lingua_name": "Spanish",
@@ -496,7 +689,10 @@
     "pt1": "es",
     "pt2t": "spa",
     "pt2b": "spa",
-    "pt3": "spa"
+    "pt3": "spa",
+    "native_name": [
+      "Español"
+    ]
   },
   {
     "lingua_name": "Swahili",
@@ -504,7 +700,10 @@
     "pt1": "sw",
     "pt2t": "swa",
     "pt2b": "swa",
-    "pt3": "swa"
+    "pt3": "swa",
+    "native_name": [
+      "Kiswahili"
+    ]
   },
   {
     "lingua_name": "Swedish",
@@ -512,7 +711,10 @@
     "pt1": "sv",
     "pt2t": "swe",
     "pt2b": "swe",
-    "pt3": "swe"
+    "pt3": "swe",
+    "native_name": [
+      "Svenska"
+    ]
   },
   {
     "lingua_name": "Tagalog",
@@ -520,7 +722,10 @@
     "pt1": "tl",
     "pt2t": "tgl",
     "pt2b": "tgl",
-    "pt3": "tgl"
+    "pt3": "tgl",
+    "native_name": [
+      "Tagalog"
+    ]
   },
   {
     "lingua_name": "Tamil",
@@ -536,7 +741,10 @@
     "pt1": "te",
     "pt2t": "tel",
     "pt2b": "tel",
-    "pt3": "tel"
+    "pt3": "tel",
+    "native_name": [
+      "తెలుగు"
+    ]
   },
   {
     "lingua_name": "Thai",
@@ -544,7 +752,10 @@
     "pt1": "th",
     "pt2t": "tha",
     "pt2b": "tha",
-    "pt3": "tha"
+    "pt3": "tha",
+    "native_name": [
+      "ไทย"
+    ]
   },
   {
     "lingua_name": "Tsonga",
@@ -552,7 +763,10 @@
     "pt1": "ts",
     "pt2t": "tso",
     "pt2b": "tso",
-    "pt3": "tso"
+    "pt3": "tso",
+    "native_name": [
+      "Xitsonga"
+    ]
   },
   {
     "lingua_name": "Tswana",
@@ -560,7 +774,10 @@
     "pt1": "tn",
     "pt2t": "tsn",
     "pt2b": "tsn",
-    "pt3": "tsn"
+    "pt3": "tsn",
+    "native_name": [
+      "Setswana"
+    ]
   },
   {
     "lingua_name": "Turkish",
@@ -568,7 +785,10 @@
     "pt1": "tr",
     "pt2t": "tur",
     "pt2b": "tur",
-    "pt3": "tur"
+    "pt3": "tur",
+    "native_name": [
+      "Türkçe"
+    ]
   },
   {
     "lingua_name": "Ukrainian",
@@ -576,7 +796,10 @@
     "pt1": "uk",
     "pt2t": "ukr",
     "pt2b": "ukr",
-    "pt3": "ukr"
+    "pt3": "ukr",
+    "native_name": [
+      "Українська"
+    ]
   },
   {
     "lingua_name": "Urdu",
@@ -584,7 +807,10 @@
     "pt1": "ur",
     "pt2t": "urd",
     "pt2b": "urd",
-    "pt3": "urd"
+    "pt3": "urd",
+    "native_name": [
+      "اردو"
+    ]
   },
   {
     "lingua_name": "Vietnamese",
@@ -592,7 +818,10 @@
     "pt1": "vi",
     "pt2t": "vie",
     "pt2b": "vie",
-    "pt3": "vie"
+    "pt3": "vie",
+    "native_name": [
+      "Tiếng Việt"
+    ]
   },
   {
     "lingua_name": "Welsh",
@@ -600,7 +829,10 @@
     "pt1": "cy",
     "pt2t": "cym",
     "pt2b": "wel",
-    "pt3": "cym"
+    "pt3": "cym",
+    "native_name": [
+      "Cymraeg"
+    ]
   },
   {
     "lingua_name": "Xhosa",
@@ -608,7 +840,10 @@
     "pt1": "xh",
     "pt2t": "xho",
     "pt2b": "xho",
-    "pt3": "xho"
+    "pt3": "xho",
+    "native_name": [
+      "IsiXhosa"
+    ]
   },
   {
     "lingua_name": "Yoruba",
@@ -616,7 +851,10 @@
     "pt1": "yo",
     "pt2t": "yor",
     "pt2b": "yor",
-    "pt3": "yor"
+    "pt3": "yor",
+    "native_name": [
+      "Yorùbá"
+    ]
   },
   {
     "lingua_name": "Zulu",
@@ -624,6 +862,9 @@
     "pt1": "zu",
     "pt2t": "zul",
     "pt2b": "zul",
-    "pt3": "zul"
+    "pt3": "zul",
+    "native_name": [
+      "IsiZulu"
+    ]
   }
 ]
