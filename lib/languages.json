@@ -733,7 +733,10 @@
     "pt1": "ta",
     "pt2t": "tam",
     "pt2b": "tam",
-    "pt3": "tam"
+    "pt3": "tam",
+    "native_name": [
+      "தமிழ்"
+    ]
   },
   {
     "lingua_name": "Telugu",

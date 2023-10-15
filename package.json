@@ -1,6 +1,6 @@
 {
   "name": "@valentech/lingua-js",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Powerful language detection using the rust Lingua library. Detecting 75 languages.",
   "keywords": [
     "language",
