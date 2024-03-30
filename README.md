@@ -1,19 +1,16 @@
 # lang-detect
 
+Tested on: linux
 
 A simple wrapper around the rust library [lingua-rs](https://github.com/pemistahl/lingua-rs).
 
-
-Using lingua-rs 1.5.0
-
+Using lingua-rs 1.6.2
 
 Simple usage:
 
-
-
     // accepts an array of languages, either as names or as iso codes (any iso code 1, 2t, 2b, or 3)
     // Be careful as a detector instance uses up a lot of ram ~ 1Gb for all 76 languages
-    let detector = new LanguageDetector(); 
+    let detector = new LanguageDetector();
     let text = 'Some Text';
     detector.detectLanguage(text); // {lingua_name: 'English', name: 'English', pt1: 'en', pt2t: 'eng', pt2b: 'eng', bt3: 'eng'}
     detector.detectLanguageCode(text); // returns ISO 639-1 Code: 'en'

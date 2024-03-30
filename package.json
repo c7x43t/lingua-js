@@ -1,6 +1,6 @@
 {
   "name": "@valentech/lingua-js",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Powerful language detection using the rust Lingua library. Detecting 75 languages.",
   "keywords": [
     "language",
@@ -12,7 +12,8 @@
   "author": "Artur Morlang <a.morlang@tecoyo.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.10.1"
+    "neon-cli": "^0.10.1",
+    "node-gyp": "^10.1.0"
   },
   "repository": {
     "type": "git",
